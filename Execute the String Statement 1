@@ -1,0 +1,12 @@
+import java.io.*;
+import java.util.*;
+
+public class Solution {
+
+    public static void main(String[] args) {
+Scanner wel=new Scanner(System.in);
+        String name=wel.nextLine();
+        
+        System.out.println("Hai " +name+ "!    Welcome to Programming Language...");
+    }
+}

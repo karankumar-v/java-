@@ -1,0 +1,15 @@
+import java.util.Scanner;
+
+public class Alice {
+    public static void main(String[] args) {
+        Scanner ali=new Scanner(System.in);
+        int num = ali.nextInt();
+        int dg = num / 10;
+        int dg1 = num % 10;
+        int sum = dg+dg1;
+        System.out.println("Bird said:" + num);
+        System.out.println("Alice must go in path-" + sum);
+        
+       
+    }
+}

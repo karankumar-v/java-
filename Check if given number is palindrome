@@ -1,0 +1,25 @@
+import java.util.*;
+
+public class Solution {
+    public static void main(String[] args) {
+        Scanner pal = new Scanner(System.in);
+        int a = pal.nextInt();
+        if (a < 100 || a > 999) {
+            System.out.println("Invalid Input");
+        }
+        else {
+            int  b= a;
+            int c = 0;
+            while (a > 0) {
+            int digit = a % 10;
+            c = c * 10 + digit;
+            a= a / 10;
+            }
+            if (b == c) {
+                System.out.println("palindrome");
+            } else {
+                System.out.println("not palindrome");
+            }
+        }
+    }
+}

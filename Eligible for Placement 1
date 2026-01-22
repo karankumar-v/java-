@@ -8,8 +8,10 @@ public class Solution {
         String name=eli.next();
         int arr=eli.nextInt();
         int cg=eli.nextInt();
-        if(arr<=2 && cg>=75){
+        if((arr==1 && cg>70) || ((arr==2) && cg>75) ){
           System.out.println("Name of the Student:"+name+"\n" +name+" is Eligible for Placement");}
+
+        
        
         
             else{

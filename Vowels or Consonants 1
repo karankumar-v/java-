@@ -1,0 +1,18 @@
+import java.io.*;
+import java.util.*;
+
+public class Solution {
+
+    public static void main(String[] args) {
+ Scanner alp=new Scanner(System.in);
+        char vow=alp.next().charAt(0);
+
+        if(vow== 'A' || vow=='I' || vow== 'E' || vow=='O' || vow=='U' || vow== 'a' || vow=='e' || vow== 'i' || vow=='o' || vow=='u'){
+            System.out.println("The Character "+vow+" is Vowel");
+        }
+        else{
+            System.out.println("The Character "+vow+" is Consonant");
+        }
+        
+    }
+}
